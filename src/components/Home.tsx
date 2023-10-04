@@ -13,9 +13,9 @@ export const Home = () => {
                         <img src={require("../assets/images/business-plan.png")} alt="business plan image" className="w-3/4"/>
                     </div>
                     <div className="md:w-1/2">
-                        <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">Sample Text 
-                        <span className="text-brandPrimary leading-snug"> Enter text here</span></h1>
-                        <p className="text-neutralGrey text-base mb-8">Where to grow your business as placeholder: site or social media?</p>
+                        <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">Lorem ipsum dolor sit. 
+                        <span className="text-brandPrimary leading-snug">Lorem, ipsum dolor.</span></h1>
+                        <p className="text-neutralGrey text-base mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique!</p>
                         <button className="btn-primary">Register</button>
                     </div>
                 </div>
@@ -26,9 +26,9 @@ export const Home = () => {
                     <img src={require("../assets/images/collab.png")} alt="collab image" className="w-3/4"/>
                     </div>
                     <div className="md:w-1/2">
-                        <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">Sample Text 
-                        <span className="text-brandPrimary leading-snug"> Test</span></h1>
-                        <p className="text-neutralGrey text-base mb-8">Where to grow your business as placeholder: site or social media?</p>
+                        <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">Lorem, ipsum dolor.
+                        <span className="text-brandPrimary leading-snug"> Lorem ipsum dolor sit.</span></h1>
+                        <p className="text-neutralGrey text-base mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti molestias necessitatibus nisi, temporibus eius sed nostrum. Neque, rerum tempore.</p>
                         <button className="btn-primary">Register</button>
                     </div>
                 </div>
@@ -39,9 +39,9 @@ export const Home = () => {
                         <img src={require("../assets/images/mobile-marketing.png")} alt="mobile marketing image" className="w-3/4"/>
                     </div>
                     <div className="md:w-1/2">
-                        <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">Sample Text 
-                        <span className="text-brandPrimary leading-snug"> Test</span></h1>
-                        <p className="text-neutralGrey text-base mb-8">Where to grow your business as placeholder: site or social media?</p>
+                        <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">Lorem, ipsum. 
+                        <span className="text-brandPrimary leading-snug"> Lorem, ipsum dolor.</span></h1>
+                        <p className="text-neutralGrey text-base mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magni, repudiandae, tempora soluta officiis quam pariatur delectus ex repellendus perferendis quisquam odio quo itaque numquam!</p>
                         <button className="btn-primary">Register</button>
                     </div>
                 </div>

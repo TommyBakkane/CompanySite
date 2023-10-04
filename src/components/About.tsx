@@ -10,7 +10,7 @@ export const About = () => {
                         <img src={require("../assets/images/checklist.png")} alt="" />
                     </div>
                     <div className='md:w-3/5 mx-auto'>
-                    <h2 className='text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5'>The unseen of spending three years at Pixelgrade</h2>
+                    <h2 className='text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5'>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
                     <p className='md:w-3/4 text-sm text-neutralGrey mb-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa laudantium ea ut omnis non voluptatibus, blanditiis explicabo minus, quo voluptas ad corrupti rem incidunt magni enim! Eligendi similique dolor, veniam eum, sint dolore sapiente aspernatur delectus voluptatum itaque numquam iste!</p>
                     <button className='btn-primary'>Learn More</button>
                     </div>
@@ -21,8 +21,8 @@ export const About = () => {
             <div className="px-4 lg:px-14 w-full max-auto  bg-neutralSilver py-16">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     <div className="md:w-1/2">
-                        <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-2/3">Helping a local <br></br><span className="text-brandPrimary">business reinvent itself</span></h2>
-                        <p>We reached here with our hard work and dedication</p>
+                        <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-2/3">Lorem, ipsum dolor. <br></br><span className="text-brandPrimary">Lorem, ipsum dolor.</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus?</p> 
                     </div>
 
                     {/* stats */}
@@ -32,14 +32,14 @@ export const About = () => {
                                     <BiIcons.BiUser className='text-2xl text-brandPrimary'/>
                                 <div>
                                     <h4 className="text-2xl text-neutralDGrey font-semibold">2,245,341</h4>
-                                    <p>Members</p>
+                                    <p>Lorem</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">
                                 <BiIcons.BiChart className='text-2xl text-brandPrimary'/>
                                 <div>
                                     <h4 className="text-2xl text-neutralDGrey font-semibold">2,245,341</h4>
-                                    <p>Customers</p>
+                                    <p>Lorem</p>
                                 </div>
                             </div>
                         </div>
@@ -48,14 +48,14 @@ export const About = () => {
                                 <BiIcons.BiCreditCard className='text-2xl text-brandPrimary'/>
                                 <div>
                                     <h4 className="text-2xl text-neutralDGrey font-semibold">2,245,341</h4>
-                                    <p>Subscribers</p>
+                                    <p>Lorem</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">
                                 <BiIcons.BiBriefcase className='text-2xl text-brandPrimary'/>
                                 <div>
                                     <h4 className="text-2xl text-neutralDGrey font-semibold">2,245,341</h4>
-                                    <p>Bookings</p>
+                                    <p>Lorem</p>
                                 </div>
                             </div>
                         </div>
