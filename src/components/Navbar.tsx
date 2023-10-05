@@ -88,18 +88,21 @@ export const Navbar = () => {
 
                 {/* nav items mobile device */}
                 { /* this class isnt working properly */ }
-                <div className= {`space-y-4 px-4 mt-16 py-7 bg-brandPrimary ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
+                <div className= {`space-y-10 px-4 py-36 mt-16 bg-brandPrimary ${isMenuOpen ? "flex flex-col items-center fixed top-0 right-0 left-0 h-screen" : "hidden "}`}>
                     {
                         navItems.map(({link, path}) => 
-                        <Link 
-                        to={path} 
-                        spy={true}  
-                        smooth={true} 
-                        offset={-100} 
-                        key={path}
-                        className="block text-base text-white hover:text-brandPrimary first:font-medium">
-                            {link }
-                        </Link>)
+                        <button>
+                        <Link onClick={toggleMenu}
+                            to={path} 
+                            spy={true}  
+                            smooth={true} 
+                            offset={-100} 
+                            key={path}
+                            className="nav-item block text-2xl text-white after">
+                                {link}
+                            </Link>
+                        </button>
+                        )
                     }
                 </div>
             </nav>
