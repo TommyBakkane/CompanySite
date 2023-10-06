@@ -1,5 +1,6 @@
 import * as BiIcons from 'react-icons/bi'
 import {FiArrowRight} from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 export const Products = () => {
     return(
@@ -9,10 +10,12 @@ export const Products = () => {
                     <div className='md:w-3/5 mx-auto'>
                         <h2 className='text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5'>What we in WebWorks can offer you</h2>
                         <p className='md:w-3/4 text-sm text-neutralGrey mb-8'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque assumenda quasi ratione ex? Eveniet facere tenetur amet nemo repellendus optio?</p>
-                        <button className='btn-primary'>Learn More</button>
+                        <Link to="/services">
+                            <button className='btn-primary'>Learn More</button>
+                        </Link>
                     </div>
                     <div className="w-1/3">
-                        <img src={require("../assets/images/digital-presentation.png")} alt="" />
+                        <img src={require("../assets/illustrations/digital-presentation.png")} alt="" />
                     </div>
                 </div>
             </div>
@@ -20,7 +23,7 @@ export const Products = () => {
             <div className="px-4 lg:px-14 w-full max-auto  bg-neutralSilver py-16">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     <div className="w-1/4 mx-20">
-                        <img src={require("../assets/images/telenor-logo.png")} alt='company logo'/>
+                        <img src={require("../assets/icons/telenor-logo.png")} alt='company logo'/>
                     </div>
 
                     <div className='mx:w-2/3 mx-auto'>
