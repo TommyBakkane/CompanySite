@@ -8,7 +8,10 @@ header{
     z-index: 10001 !important;
 }
 .btn-primary{
-    @apply px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralGrey transition-all duration-300 hover:-translate-y-4
+    @apply px-7 py-2 bg-brandPrimary text-white rounded transition-all duration-300 hover:scale-105
+}
+.btn-secondary{
+    @apply px-7 py-2 text-xl border-2 text-white rounded transition-all duration-300 hover:scale-105
 }
 
 .nav-item::after{
