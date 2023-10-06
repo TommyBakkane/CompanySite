@@ -24,12 +24,14 @@ export const Services = () => {
     ]
 
     return (
-        <div className="md:px-14 px-4 py-16 max-w-screen-2x1 mx-auto" id="service">
+        <div className="md:px-14 px-4 py-16 max-w-screen-2x1 mx-auto" id="services">
+            
+            
+            {/* Company
             <div className="text-center my-8">
                 <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">Our Clients</h2>
                 <p className="text-neutralGrey">We have been working with:</p>
 
-                {/* Company Logos */}
                 <div className="my-12 flex flex-wrap justify-between items-center gap-8">
                     <img src={require("../assets/icons/company1.png")} alt="logo1" />
                     <img src={require("../assets/icons/company2.png")} alt="logo2" />
@@ -40,6 +42,10 @@ export const Services = () => {
                     <img src={require("../assets/icons/company7.png")} alt="logo7" />
                 </div>
             </div>
+            */}
+
+
+            {/* Suitable */}
             <div className="mt-20 md:w-1/2 mx-auto text-center">
                 <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">Manage your enitre community in a single system</h2>
                 <p className="text-neutralGrey">Who is Company suitable for?</p>
@@ -49,7 +55,7 @@ export const Services = () => {
                 {
                     services.map(services => <div key={services.id} className="px-4 py-8 text-center md:w-[300px] mx-auto md:h80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-brandPrimary transition-all duration-300 flex items-center justify-center h-full">
                         <div>
-                            <div className="bg-[#E8F5E9] mb- h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xlml-5 text-3xl">
+                            <div className="bg-brandSecondary mb- h-14 w-14 mx-auto rounded rounded-tl-3xl rounded-br-3xlml-5 text-3xl">
                                 <div className="ml-5 text-3xl">
                                     {services.image}
                                 </div>
